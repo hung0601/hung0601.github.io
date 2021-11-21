@@ -1,0 +1,70 @@
+.light-box{
+    position: fixed;
+    background-color: rgba(39, 35, 35,0.75);
+    align-items: center;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    /* align-items: center; */
+    text-align: center;
+}
+.box img{
+    width: 60%;
+    cursor: zoom-in;
+    /* margin: 0 auto;   */
+}
+.light-box img{
+    height: 600px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+.light-box i{
+    font-size: 60px;
+    color:white;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.light-box i:first-child{
+    margin-left: 100px;
+}
+.light-box i:last-child{
+    margin-right: 100px;
+}
+.center{
+    display: block;
+    align-items: center;
+    position: relative;
+}
+.menu-button{
+    position: absolute;
+    left:50%;
+    top: 95%;
+    transform: translate(-50%);
+}
+.note{
+    
+    display: inline-block;
+    background-color: rgb(177, 166, 166);
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+.note:hover,
+.note:active{
+    background-color: white;
+}
+.note:first-child{
+    margin-left: 0px;
+}
+.node-onfocus{
+    background-color: rgb(141, 136, 136);
+}
